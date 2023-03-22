@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Universidad Autonoma De Chiapas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img src="img/logo.png" alt="Logo de mi página web">
+
+      <h1>UNIVERSIDAD AUTONOMA DE CHIAPAS</h1>
+      <nav>
+        <button class="menu-icon" onclick="toggleMenu()">☰</button>
+        <ul id="menu">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Vision</a></li>
+          <li><a href="#">Mision</a></li>
+
+          
+        </ul>
+      </nav>
+    </header>
+    <main>
+     <div><h2 class="portal" >Bienvienido a mi portal</h2>
+
+      <img src="img/foto.jpeg" alt="foto">
+      
+      <h1>#ORGULLO UNACH</h1></div>
+    </main>
+    <footer>
+      
+    </footer>
+    <script>
+      function toggleMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.style.display === "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
